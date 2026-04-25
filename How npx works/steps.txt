@@ -1,0 +1,8 @@
+what does npx does?
+npx searches for a file and executes it 
+
+searching steps 1 :-
+npx searches for package.json file and find name key and bin key and executes that file
+
+
+In case there is no package.json file it searches for node_module/bin/app and execute that file within bin file
